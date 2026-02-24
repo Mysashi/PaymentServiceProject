@@ -42,6 +42,6 @@ public class OrderEntity {
     private OrderStatus orderStatus;
 
     @OneToMany(mappedBy = "order", cascade = CascadeType.PERSIST)
-    private Set<OrderItemEntity> orderItemEntities = new LinkedHashSet<>();
+    private Set<OrderItemEntity> items = new LinkedHashSet<>();
 
 }

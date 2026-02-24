@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.proxy.HibernateProxy;
 
+import java.math.BigDecimal;
 import java.util.Objects;
 
 @Entity
@@ -29,6 +30,9 @@ public class OrderItemEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "order_id")
     private OrderEntity order;
+
+    @Column(name="price_at_purchase")
+    private BigDecimal priceAtPurchase;
 
     @Column(name = "quantity")
     private Integer quantity;

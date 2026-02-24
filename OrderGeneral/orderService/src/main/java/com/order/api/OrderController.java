@@ -1,8 +1,6 @@
 package com.order.api;
 
-import com.order.domain.OrderEntity;
 import com.order.domain.OrderEntityMapper;
-import com.order.domain.OrderItemEntity;
 import com.order.domain.OrderProcessor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -19,9 +17,9 @@ public class OrderController {
     private final OrderEntityMapper orderEntityMapper;
 
     @PostMapping
-    public OrderDto create(@RequestBody OrderEntity orderEntity) {
-        log.info("Created order with id {}", orderEntity.getId());
-        var saved = orderProcessor.create(orderEntity);
+    public OrderDto create(@RequestBody CreateOrderRequestDto request) {
+        log.info("Created order: request {}", request);
+        var saved = orderProcessor.create(request);
         return orderEntityMapper.toOrderDto(saved);
     }
 
