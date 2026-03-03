@@ -7,6 +7,11 @@
           <package value="com.order" />
         </packages>
       </persistence-unit>
+      <persistence-unit moduleName="demo (4)" name="Default">
+        <packages>
+          <package value="com.payment" />
+        </packages>
+      </persistence-unit>
     </persistence-units>
   </component>
 </project>
