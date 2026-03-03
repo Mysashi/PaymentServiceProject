@@ -2,6 +2,9 @@ package com.payment.domain;
 
 import com.payment.api.CreatePaymentRequestDto;
 import com.payment.api.CreatePaymentResponseDto;
+import com.payment.domain.db.PaymentEntity;
+import com.payment.domain.db.PaymentEntityMapper;
+import com.payment.domain.db.PaymentJpaRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

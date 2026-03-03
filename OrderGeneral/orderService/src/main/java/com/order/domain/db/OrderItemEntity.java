@@ -1,4 +1,4 @@
-package com.order.domain;
+package com.order.domain.db;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

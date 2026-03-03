@@ -1,4 +1,4 @@
-package com.payment.domain;
+package com.common_libs.api.payment;
 
 public enum PaymentStatus {
     PAYMENT_SUCCESS,

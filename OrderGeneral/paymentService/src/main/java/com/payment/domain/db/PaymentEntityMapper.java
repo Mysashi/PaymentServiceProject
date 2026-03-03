@@ -1,4 +1,4 @@
-package com.payment.domain;
+package com.payment.domain.db;
 
 import com.payment.api.CreatePaymentRequestDto;
 import com.payment.api.CreatePaymentResponseDto;

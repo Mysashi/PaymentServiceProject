@@ -1,6 +1,7 @@
-package com.order.domain;
+package com.order.domain.db;
 
 
+import com.common_libs.api.order.OrderStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

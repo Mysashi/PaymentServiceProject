@@ -1,4 +1,4 @@
-package com.order.api;
+package com.common_libs.api.order;
 
 import java.util.Set;
 

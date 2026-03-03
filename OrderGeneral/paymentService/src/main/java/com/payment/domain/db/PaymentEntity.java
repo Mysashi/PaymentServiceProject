@@ -1,4 +1,4 @@
-package com.payment.domain;
+package com.payment.domain.db;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

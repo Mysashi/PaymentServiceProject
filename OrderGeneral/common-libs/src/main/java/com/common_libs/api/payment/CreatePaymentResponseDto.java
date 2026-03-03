@@ -1,8 +1,4 @@
-package com.payment.api;
-
-import com.payment.domain.PaymentMethod;
-import com.payment.domain.PaymentStatus;
-
+package com.common_libs.api.payment;
 import java.math.BigDecimal;
 
 public record CreatePaymentResponseDto(

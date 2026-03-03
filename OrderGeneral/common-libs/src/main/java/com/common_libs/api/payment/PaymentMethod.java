@@ -1,4 +1,4 @@
-package com.payment.domain;
+package com.common_libs.api.payment;
 
 public enum PaymentMethod {
     QR_CODE,

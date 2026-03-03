@@ -1,7 +1,8 @@
-package com.order.domain;
+package com.order.domain.db;
 
-import com.order.api.CreateOrderRequestDto;
-import com.order.api.OrderDto;
+import com.common_libs.api.order.CreateOrderRequestDto;
+import com.common_libs.api.order.OrderDto;
+
 import org.mapstruct.*;
 
 @Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE, componentModel = "spring")
