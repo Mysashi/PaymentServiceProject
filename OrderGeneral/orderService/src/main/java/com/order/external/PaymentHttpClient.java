@@ -2,6 +2,7 @@ package com.order.external;
 
 import com.common_libs.api.payment.CreatePaymentRequestDto;
 import com.common_libs.api.payment.CreatePaymentResponseDto;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.service.annotation.HttpExchange;
 import org.springframework.web.service.annotation.PostExchange;
 
@@ -14,5 +15,5 @@ import org.springframework.web.service.annotation.PostExchange;
 public interface PaymentHttpClient {
 
     @PostExchange
-    CreatePaymentResponseDto createPayment(CreatePaymentRequestDto request);
+    CreatePaymentResponseDto createPayment(@RequestBody CreatePaymentRequestDto request);
 }

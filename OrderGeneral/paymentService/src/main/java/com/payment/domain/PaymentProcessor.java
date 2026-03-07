@@ -1,7 +1,10 @@
 package com.payment.domain;
 
-import com.payment.api.CreatePaymentRequestDto;
-import com.payment.api.CreatePaymentResponseDto;
+
+import com.common_libs.api.payment.CreatePaymentRequestDto;
+import com.common_libs.api.payment.CreatePaymentResponseDto;
+import com.common_libs.api.payment.PaymentMethod;
+import com.common_libs.api.payment.PaymentStatus;
 import com.payment.domain.db.PaymentEntity;
 import com.payment.domain.db.PaymentEntityMapper;
 import com.payment.domain.db.PaymentJpaRepository;

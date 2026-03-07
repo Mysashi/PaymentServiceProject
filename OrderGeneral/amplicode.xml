@@ -12,6 +12,11 @@
           <package value="com.payment" />
         </packages>
       </persistence-unit>
+      <persistence-unit moduleName="deliviriy" name="Default">
+        <packages>
+          <package value="com.deliviry" />
+        </packages>
+      </persistence-unit>
     </persistence-units>
   </component>
 </project>

@@ -14,7 +14,7 @@
     <packaging>pom</packaging>
     <modules>
     <module>common-libs</module>
-    <module>deliveryService</module>
+    <module>deliviriy</module>
     <module>orderService</module>
     <module>paymentService</module>
     </modules>
@@ -91,5 +91,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
