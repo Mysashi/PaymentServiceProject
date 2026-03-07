@@ -13,10 +13,11 @@
 	<version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-    <module>common-libs</module>
-    <module>deliviriy</module>
-    <module>orderService</module>
-    <module>paymentService</module>
+        <module>authserver</module>
+        <module>common-libs</module>
+        <module>deliviriy</module>
+        <module>orderService</module>
+        <module>paymentService</module>
     </modules>
 	<name>orderGeneral</name>
 	<description>orderGeneral</description>
@@ -61,6 +62,10 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.security</groupId>-->
+<!--            <artifactId>spring-security-oauth2-authorization-server</artifactId>-->
+<!--        </dependency>-->
 	</dependencies>
 
 	<build>
